@@ -30,7 +30,12 @@ apt-get update
 apt-get install cuda -y
 ```  
 
-2a. check nvidia driver install 
+2a. reboot Ubuntu
+```bash
+sudo reboot
+```
+
+2b. check nvidia driver install 
 ``` bash
 nvidia-smi   
 
